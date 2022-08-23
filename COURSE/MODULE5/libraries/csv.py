@@ -1,9 +1,9 @@
-from .utils import Utils
+from COURSE.MODULE5.libraries.utils import Utils
 import pandas as pd
 import json
 
 
-BASE_URL = 'COURSE/DATABASES/data-_zJ9Zko2Dh1LYlNNgALKE.csv'
+BASE_URL = r'C:\masterIA\data_collection\repos\repos\KUASSI\DATA-COLLECTION-DIT\COURSE\DATABASES\data-_zJ9Zko2Dh1LYlNNgALKE.csv'
 
 
 class CsvFactory(object):

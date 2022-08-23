@@ -1,6 +1,6 @@
-1. Completer le code de HtmlFactory, afin de récupérer les données
-2. Mettre ces données sous forme de liste d'object
-3. Assurez vous que les noeuds présents dans cette liste soient exactement comme dans CsvFactory, et JsonFactory
+	1. Completer le code de HtmlFactory, afin de récupérer les données
+	2. Mettre ces données sous forme de liste d'object
+	3. Assurez vous que les noeuds présents dans cette liste soient exactement comme dans CsvFactory, et JsonFactory
 4. Grace aux trois Factory, implémenter une méthode qui concatène tous les trois datas. C'est à dire:
 	- Celui de CsvFactory
 	- Celui de JsonFactory

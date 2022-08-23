@@ -1,9 +1,9 @@
 import json
 import random
-from .utils import Utils
+from COURSE.MODULE5.libraries.utils import Utils
 
 
-BASE_URL = 'COURSE/DATABASES/data-zIybdmYZoV4QSwgZkFqvC.json'
+BASE_URL = r'C:\masterIA\data_collection\repos\repos\KUASSI\DATA-COLLECTION-DIT\COURSE\DATABASES\data-zIybdmYZoV4QSwgZkFqvC.json'
 
 
 class JsonFactory(object):
