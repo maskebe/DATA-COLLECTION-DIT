@@ -1,18 +1,20 @@
 import json
 
 from COURSE.MODULE5.libraries.utils import Utils
-from libraries.csv import CsvFactory
-from libraries.json import JsonFactory
-from libraries.html import HtmlFactory
+from libraries.csvL import CsvFactory
+from libraries.jsonL import JsonFactory
+from libraries.htmlL import HtmlFactory
+from libraries.globalData import GlobalDataFactory
 
-def aggregateData():
-    data = JsonFactory.main() + HtmlFactory.main() + CsvFactory.main()
-    return json.dumps(data, indent=4)
+data = JsonFactory.main() + HtmlFactory.main() + CsvFactory.main()
+
+
 
 if __name__ == '__main__':
     print(Utils.divider())
     #print(HtmlFactory.main())
     #print(JsonFactory.main())
     #print(CsvFactory.main())
-    print(aggregateData())
+    #print(liste[Utils.randomizeString(liste)])
+    print(GlobalDataFactory.addCurrency(data))
     print('\n')

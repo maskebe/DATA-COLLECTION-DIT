@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import request
 import json
 from COURSE.MODULE5.libraries.utils import Utils
-#from bs4 import BeautifulSoup
 
 
 

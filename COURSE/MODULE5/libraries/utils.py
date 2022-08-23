@@ -14,6 +14,12 @@ class Utils(object):
             .randint(start, final)
 
     @classmethod
+    def randomizeString(cls,
+                  liste:list):
+        return random \
+            .randint(0, len(liste)-1)
+
+    @classmethod
     def x(cls, x):
         x = x.split(' ')
         last_name = x[-1].upper()
