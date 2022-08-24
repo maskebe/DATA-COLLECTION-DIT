@@ -20,7 +20,7 @@ class GlobalDataFactory(object):
     def addCurrency(cls, data):
         liste_devise = ['Euro', 'Dollar us', 'Yen japonais']
         currencies = CurrencyScrapper.makeCurrencyList()
-        print(currencies[0]['Devise'])
+        #print(currencies[0]['Devise'])
 
         def devise(x):
             x['devise'] = liste_devise[Utils.randomizeString(liste_devise)]
@@ -35,9 +35,18 @@ class GlobalDataFactory(object):
         return list(data)
 
     @classmethod
-    def addCountry(cls):
+    def addCountry(cls, data):
         URL = 'https://restcountries.com/v2/all'
         countries = requests.get(URL)
         countries = json.loads(countries.text[:])
-        print(countries[0]['name'], countries[0]['flags']['png'])
-        pass
+
+        def datacountry(x):
+            pays = []
+            for i in countries:
+                pays.append({'name': i['name'], 'flag': i['flags']['png']})
+                x['country'] = pays[Utils.randomizeString(pays)]["name"]
+                x['flag'] = pays[Utils.randomizeString(pays)]["flag"]
+            return x
+
+        data = map(datacountry, data)
+        return list(data)

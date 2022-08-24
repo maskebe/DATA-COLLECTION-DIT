@@ -15,7 +15,7 @@ class Utils(object):
 
     @classmethod
     def randomizeString(cls,
-                  liste:list):
+                  liste):
         return random \
             .randint(0, len(liste)-1)
 

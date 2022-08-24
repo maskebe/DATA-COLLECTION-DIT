@@ -13,7 +13,7 @@
 	- Ajouter une nouvelle entrée qui donnera la conversion en XOF
 		- Ainsi on aura une entrée contenant la devise attribuée
 		- Puis une entrée contenant la conversion en XOF via les données de la BCEAO
-6. Utiliser l'API FREE de countries
+	6. Utiliser l'API FREE de countries
     - Chercher l'API countries sur le NET
 	- Pour ajouter des pays de manière aléatoire dans une nouvelle entrée (Colonne)
 	- Puis y joindre les flags de ces pays dans une nouvelle entrée
