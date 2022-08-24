@@ -3,6 +3,8 @@ from COURSE.MODULE5.libraries.htmlL import HtmlFactory
 from COURSE.MODULE5.libraries.jsonL import JsonFactory
 from COURSE.MODULE5.libraries.currency import CurrencyScrapper
 import pandas as pd
+import requests
+import json
 from COURSE.MODULE5.libraries.utils import Utils
 
 
@@ -31,3 +33,11 @@ class GlobalDataFactory(object):
 
         data = map(devise, data)
         return list(data)
+
+    @classmethod
+    def addCountry(cls):
+        URL = 'https://restcountries.com/v2/all'
+        countries = requests.get(URL)
+        countries = json.loads(countries.text[:])
+        print(countries[0]['name'], countries[0]['flags']['png'])
+        pass

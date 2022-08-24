@@ -16,5 +16,5 @@ if __name__ == '__main__':
     #print(JsonFactory.main())
     #print(CsvFactory.main())
     #print(liste[Utils.randomizeString(liste)])
-    print(GlobalDataFactory.addCurrency(data))
+    print(GlobalDataFactory.addCountry())
     print('\n')

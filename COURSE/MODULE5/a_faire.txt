@@ -5,7 +5,7 @@
 		- Celui de CsvFactory
 		- Celui de JsonFactory
 		- Celui de HtmlFactory
-5. Utiliser le lien de la BCEAO concernant les devises:
+	5. Utiliser le lien de la BCEAO concernant les devises:
 	- Ajouter une nouvelle entrée dans la donnée globale
 	- Puis cette entrée doit contenir (Euro, Dollar, Yen)
 	- Attribuer de manière aléatoire ces Devises
