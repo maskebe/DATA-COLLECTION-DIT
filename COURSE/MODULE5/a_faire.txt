@@ -17,7 +17,7 @@
     - Chercher l'API countries sur le NET
 	- Pour ajouter des pays de manière aléatoire dans une nouvelle entrée (Colonne)
 	- Puis y joindre les flags de ces pays dans une nouvelle entrée
-7. Implémenter une base de données averc vos acquis en SQL
+	7. Implémenter une base de données averc vos acquis en SQL
 	- Architecturer une structure cohérente si vous utiliser du relationnel
 	- Ou une structure nosql si vous utilisez du nosql
 	- stocker les informations obtenues des traitements sous jacents
