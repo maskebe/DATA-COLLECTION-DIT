@@ -1,0 +1,21 @@
+URL: http://www.floatrates.com/json-feeds.html
+
+Ecrire un script python
+ - Pour faire la convertion de devise
+ - Utiliser le lien des devises
+ - Soit le format JSON/XML
+ - Puis implémenter une méthode Finale
+ - qui prendra en parametre
+ 	- le montant
+ 	- la devise de départ
+ 	- la devise finale
+ 	- Exemple:
+ 		- 10 USD
+ 		- en EUR
+
+Ecrire un script python
+ - qui enrégistre dans un fichier CSV
+ - le montant
+ - la devise initiale de convertion
+ - la devise finale de convertion
+ - puis le montant final après convertion
